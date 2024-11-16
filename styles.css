@@ -1,0 +1,50 @@
+/* Light Mode Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(202, 115, 115);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.mode-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.toggle-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/* Dark Mode Styles */
+
+body.dark-mode {
+    background-color: rgb(1, 6, 46);
+    color: white;
+}
+
+body.dark-mode .toggle-btn {
+    background-color: #333;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
